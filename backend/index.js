@@ -1,6 +1,15 @@
 const express = require("express");
 const cors = require("cors");
-require("./config");
+
+//require("./config");
+
+const mongoose = require("mongoose")
+
+mongoose.connect("USE YOUR MONGODB CONNECTION URL")
+.then(()=>{
+   console.log("connected to mongodb")
+})
+
 const {
   ComplaintSchema,
   UserSchema,
