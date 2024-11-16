@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import Footer from '../common/FooterC'
 import Complaint from '../user/Complaint';
 import Status from '../user/Status';
 
@@ -73,7 +72,6 @@ const HomePage = () => {
                {activeComponent === 'Status' ? <Status /> : null}
             </div>
          </div>
-         <Footer />
       </>
    );
 };

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import {Link, useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import Footer from './FooterC'
+
 
 const Login = () => {
    const navigate = useNavigate();
@@ -112,7 +112,6 @@ const Login = () => {
                </div>
             </div>
          </section>
-         <Footer/>
       </>
    );
 };

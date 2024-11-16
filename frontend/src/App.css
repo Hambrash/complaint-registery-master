@@ -4,7 +4,7 @@
    box-sizing: border-box;
 }
 
-.App{
+/* .App{
    max-width: 100%;
    max-width: 100%;
    background-color: #B0BEC5;
@@ -113,7 +113,7 @@ span {
    cursor: pointer;
    font-size: 15px;
    margin-top: 2px;
-   /* Change this to the desired color for the active link */
+   
 }
 
 .nav-item p:hover {
@@ -186,4 +186,24 @@ span {
    .chat-container {
       height: auto;
    }
+} */
+
+.home-h3{
+    border-bottom: 1px solid orangered;
+    display: inline-block;
+       
+}
+.home-h3-2{
+    text-align: justify;
+}
+.home-p{
+    text-align: justify;
+}
+.home-img{
+    height: 350px;
+    width: 350px;
+}
+.home-bg{
+    background-color: rgba(0, 0, 0, 0.158);
+    padding: 15px;
 }

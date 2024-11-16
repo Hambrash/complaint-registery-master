@@ -9,7 +9,7 @@ import axios from 'axios';
 import Alert from 'react-bootstrap/Alert';
 import Collapse from 'react-bootstrap/Collapse';
 import ChatWindow from '../common/ChatWindow';
-import Footer from '../common/FooterC'
+
 
 const AgentHome = () => {
    const style = {
@@ -134,7 +134,7 @@ const AgentHome = () => {
                )}
             </div>
          </div>
-         <Footer style={style}/>
+        
       </>
    );
 };

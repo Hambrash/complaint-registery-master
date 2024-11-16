@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Dropdown from 'react-bootstrap/Dropdown';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import Footer from './FooterC'
+
 const SignUp = () => {
    const [title, setTitle] = useState("Select User")
    const [user, setUser] = useState({
@@ -126,7 +126,6 @@ const SignUp = () => {
                </div>
             </div>
          </section>
-         <Footer/>
       </>
    )
 }
